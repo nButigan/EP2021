@@ -1,0 +1,21 @@
+.container {
+    width: 80%;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.header {
+    font-size: 36px;
+}
+.card_container{
+    width: 100%;
+    height: 90%;
+
+}
+.spaceBetween{
+    float: left;
+    width: 2%;
+    height: 50%;
+}

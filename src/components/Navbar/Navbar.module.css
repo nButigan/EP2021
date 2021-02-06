@@ -1,0 +1,106 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+.navbar_button1{
+    background-color: white;
+    border-style: none none solid none;
+    border-bottom-color: red;
+    border-bottom-width: thick;
+    color: black;
+    float: left;
+    font-size: 24px;
+    padding: 0px;
+    cursor: pointer;
+    height: 100%;
+    width: 16%;
+    text-align: center;
+}
+.navbar_button2{
+    background-color: white;
+    border-style: none none solid none;
+    border-bottom-color: yellow;
+    border-bottom-width: thick;
+    color: black;
+    float: left;
+    font-size: 24px;
+    padding: 0px;
+    cursor: pointer;
+    height: 100%;
+    width: 16%;
+    text-align: center;
+}
+.navbar_button3{
+    background-color: white;
+    border-style: none none solid none;
+    border-bottom-color: green;
+    border-bottom-width: thick;
+    color: black;
+    float: left;
+    font-size: 24px;
+    padding: 0px;
+    cursor: pointer;
+    height: 100%;
+    width: 16%;
+    text-align: center;
+}
+.navbar_button4{
+    background-color: white;
+    border-style: none none solid none;
+    border-bottom-color: blue;
+    border-bottom-width: thick;
+    color: black;
+    float: left;
+    font-size: 24px;
+    padding: 0px;
+    cursor: pointer;
+    height: 100%;
+    width: 16%;
+    text-align: center;
+}
+.navbar_button5{
+    background-color: white;
+    border-style: none none solid none;
+    border-bottom-color: black;
+    border-bottom-width: thick;
+    color: black;
+    float: left;
+    font-size: 24px;
+    padding: 0px;
+    cursor: pointer;
+    height: 100%;
+    width: 16%;
+    text-align: center;
+}
+
+.navbar_logo_div{
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+  margin-right: auto;
+    height: 100%;
+    width: 10%;
+    float: left;
+    padding: 0px;
+    cursor: pointer;
+    
+}
+
+.navbar_login_div{
+    display: block;
+    margin-top: 1%;
+    height: 100%;
+    width: 10%;
+    float: left;
+    padding: 0px;
+    cursor: pointer;
+    
+}
+
+.navbar_images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
