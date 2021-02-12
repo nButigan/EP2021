@@ -1,11 +1,11 @@
 import React from 'react';
 
-import classes from './Contact.module.css';
+import classes from './RegistrationForm.module.css';
 
-const Contact = (props) => {
+const RegistrationForm = (props) => {
     return(
         <div className={classes.container}>
-            <div className={classes.header}>KONTAKT</div>
+            <div className={classes.header}>REGISTRACIJA</div>
             <div className={classes.contactField}>
             <form>
 
@@ -15,13 +15,14 @@ const Contact = (props) => {
                 <label>Prezime</label>
                 <input type="text" id="lname"  placeholder="Unesi prezime.."></input>
 
+                <label>Kontakt broj:</label>
+                <input type="text" id="kbroj"  placeholder="Unesi broj.."></input>
+
+
                 <label>E-mail</label>
                 <input type="text" id="lname"  placeholder="Unesi email.."></input>
 
-                <label>Napišite poruku</label>
-                <textarea name="subject" placeholder="Poruka.."></textarea>
-
-                <input type="submit" value="Pošalji"></input>
+                <input type="submit" value="Registriraj se"></input>
 
             </form>
             </div>
@@ -29,4 +30,4 @@ const Contact = (props) => {
     );
 }
 
-export default Contact;
+export default RegistrationForm;

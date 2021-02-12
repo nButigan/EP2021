@@ -8,7 +8,7 @@ const CentralPanel = (props) => {
         <div className={classes.central_div}>
             <img className={classes.central_img} src={billboard} alt="billboard"></img>
             <div className={classes.central_text}>DA PREDSTAVLJANJE BUDE SUVIŠNO</div>
-            <button className={classes.central_button}>REGISTRIRAJ SE</button>
+            <a href="/registration"><button className={classes.central_button}>REGISTRIRAJ SE</button></a>
             <p className={classes.loginParagraph}><u>Već imate račun ?</u></p>
         </div>
     );

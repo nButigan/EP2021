@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Route} from 'react-router-dom';
 
 import classes from './Navbar.module.css';
 import logo from './logo.png';
@@ -21,8 +22,8 @@ class Navbar extends Component{
     render(){
         return (
                 <div className={classes.navbar}>
-                    <div className={classes.navbar_logo_div}><img src={logo} alt="logo" className={classes.navbar_images}/></div>
-                    <button className={classes.navbar_button1}>POČETNA</button>
+                    <a href="/"><div className={classes.navbar_logo_div}><img src={logo} alt="logo" className={classes.navbar_images}/></div></a>
+                    <a href="/"><button className={classes.navbar_button1}>POČETNA</button></a>
                     <button className={classes.navbar_button2}>PANELI</button>
                     <button className={classes.navbar_button3}>O NAMA</button>
                     <button className={classes.navbar_button4}>USLUGE</button>
